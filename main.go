@@ -8,5 +8,5 @@ import (
 
 func main() {
 	d := model.NewGp()
-	fmt.Println(d)
+	fmt.Println(d.ToRow())
 }
